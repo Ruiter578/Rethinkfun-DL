@@ -1,0 +1,132 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+
+# Type checkers / linters
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# Conda
+.conda/
+conda-meta/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Local caches
+.local/
+
+# PyTorch / deep learning generated artifacts
+checkpoints/
+checkpoint/
+outputs/
+output/
+results/
+artifacts/
+runs/
+lightning_logs/
+wandb/
+mlruns/
+tensorboard/
+tensorboard_logs/
+events.out.tfevents*
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.engine
+*.pkl
+*.pickle
+
+# Dataset directories generated or downloaded during learning
+PetImages/
+FashionMNIST/
+MNIST/
+CIFAR10/
+cifar-10-batches-py/
+cifar-100-python/
+data/raw/
+data/processed/
+datasets/
+
+# Temporary experiment files
+tmp/
+temp/
+scratch/
+playground/
+*.tmp
